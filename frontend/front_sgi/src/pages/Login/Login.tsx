@@ -21,7 +21,7 @@ const Login: React.FC = () => {
       const { mensaje } = response.data;
       
       // Verificar si el mensaje indica que las credenciales son incorrectas
-      if (mensaje === 'La ct_contrasena es incorrecta' || mensaje === 'No se encontró ningún usuario con ese ct_correo electrónico') {
+      if (mensaje === 'La contraseña es incorrecta' || mensaje === 'No se encontró ningún usuario con ese correo electrónico') {
         setError('Credenciales inválidas');
       } else {
         // Las credenciales son válidas, haz lo que necesites hacer aquí

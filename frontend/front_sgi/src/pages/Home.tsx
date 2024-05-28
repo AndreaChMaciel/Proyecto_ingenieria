@@ -26,7 +26,7 @@ const Home: React.FC = () => {
                 
 
             } catch (error) {
-                console.error('Error fetching data:', error);
+                console.error('Error de data:', error);
             }
         };
 
